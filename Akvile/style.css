@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 31%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.header-img {
+    height: 160px; /* Set the height of the header image */
+    width: 280px; /* Maintain aspect ratio */
+}
+
+.meniu {
+    display: flex;
+    gap: 4%;
+}
+
+.meniu a {
+    display: flex; /* Change to flex to enable flexbox properties */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    padding: 15px 30px;
+    border: 2px solid black;
+    background-color: rgb(255, 235, 251);
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    text-align: center; /* Ensure text is centered */
+    white-space: nowrap; /* Ensure text stays in one line */
+    text-transform: uppercase;
+    border-color: rgb(177, 88, 160);
+}
+
+.meniu a:hover {
+    background-color: rgb(245, 170, 231);
+    border-color: rgb(245, 170, 231);
+    color: rgb(255, 255, 255);
+}
+
+.meniu a:active {
+    background-color: rgb(212, 115, 195);
+    border-color: rgb(212, 115, 195);
+}
+
+.content-container {
+    display: flex;
+    gap: 80px; /* Add space between content and carousel */
+}
+
+.turinys {
+    flex: 1;
+    text-align: left;
+    margin: 20px;
+}
+
+.carousel {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.mygtukas {
+    margin-top: 26px; 
+    font-weight: bold;
+}
+
+.mygtukas a {
+    display: inline-block;
+    padding: 20px 240px;
+    border: 2px solid black;
+    background-color: rgb(255, 235, 251);
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center text horizontally */
+    white-space: nowrap; /* Ensure text stays in one line */
+    border-color: rgb(177, 88, 160);
+}
+
+.mygtukas a:hover {
+    background-color: rgb(245, 170, 231);
+    border-color: rgb(245, 170, 231);
+    color: rgb(255, 255, 255);
+}
+
+.mygtukas a:active {
+    background-color: rgb(212, 115, 195);
+    border-color: rgb(212, 115, 195);
+}
+
+.carousel-inner .item img {
+        width: 620px; /* Pašalinkite šią eilutę */
+        height: 450px; /* Pašalinkite šią eilutę */
+        object-fit: cover; /* Pašalinkite šią eilutę */
+        margin-bottom: 10px;
+        border-radius: 25px;
+    }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none; /* Remove default background */
+    color: black; /* Set control color */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    width: 5%; /* Adjust width */
+}
+
+h3 {
+    color: rgb(199, 95, 187);
+}
+
+.dviratis {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    justify-content: space-evenly;
+}
+
+.dviratis-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+.dviratis-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dviratis-list li strong {
+    font-size: 17px;
+}
+h1 {
+    font-family: 'Lora', cursive;
+    font-size: 3em;
+    color: rgb(177, 88, 160);
+}
+a {
+    font-weight: bold;
+}
